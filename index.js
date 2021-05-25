@@ -60,13 +60,13 @@ searchForm.addEventListener("submit", async (e) => {
 
 async function fetchData(url) {
   if (localStorage.getItem("covid")) {
-    //console.log("data from ls!");
+    console.log("data from ls!");
     return localStorage.getItem("covid");
   }
   let resp = await fetch(url);
   let data = await resp.json();
 
-  //console.log("fetched data!");
+  console.log("fetched data!");
   const countriesArray = data.Countries;
   localStorage.setItem("covid", JSON.stringify(countriesArray));
   return JSON.stringify(countriesArray);
