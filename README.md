@@ -8,4 +8,4 @@
 
 ## to refresh (call API instead local storage) press 'Clear Local Storage'-Button
 
-# [Live Demo](https://rkloecker.github.io//)
+# [Live Demo](https://rkloecker.github.io/covid-19-info-vanillaJS/)
